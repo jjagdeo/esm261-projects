@@ -1,0 +1,79 @@
+---
+title: "Assignment 1: Files and Folders"
+author: "Jessica Jagdeo"
+date: "4/3/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This folder contains my graduate school files and folders. Only including file name and descriptions for Winter 2020 folder. 
+
+* `UCSB Bren\` : *Contains folders for each quarter.*
+  + `Fall 2018\` : *Fall quarter 2018 folders*
+    - `ESM 210 Business and the Environment` : *Business course files*
+    - `ESM 206 Data Science` : *Data science course files*
+    - `ESM 203 Earth Systems Science` : *Earth systems course files*
+    - `ESM 225 Water Policy` : *Water policy course files*
+  + `Winter 2019\` : *Winter quarter 2019 folders*
+    - `ESM 202 Biogeochemistry` : *Biogeochemistry course files*
+    - `ESM 201 Ecology` : *Ecology course files*
+    - `ESM 263 GIS` : *GIS course files*
+    - `ESM 226 Groundwater Management` : *Groundwater management course files*
+    - `ESM 241 Policy` : *Environmental policy course files*
+  + `Spring 2019\` : *Spring quarter 2019 folders*
+    - `ESM 204 Environmental Economics` : *Environmental economics course files*
+    - `ESM 207 Environmental Law` : *Environmental law course files*
+    - `ESM 222 Fate and Transport of Pollutants` : *Fate and transport pollutants course files*
+  + `Fall 2019\` : *Fall quarter 2019 folders*
+    - `ESM 267 Advanced GIS` : *Advanced GIS course files*
+    - `ESM 296 Equity and the Environment` : *Equity & environment course files*
+    - `ESM 224 Sustainable Watershed Quality Management` : *Watershed quality course files*
+  + `Winter 2020\` : *Winter quarter 2020 folders*
+    - `ESM 235 Watershed Analysis` : *Watershed analysis course folders and files*
+      - `Final Project\`: *Folder with files associated with final project*
+      - `Labs\` : *Folder for lab instructions*
+      - `Lecture Slides\` : *Folder for lecture slide pdfs*
+      - `Jagdeo, Jessica Everglades Final Report.pdf` : *File of final report*
+      - `Jagdeo, Jessica Everglades Water Quality.pptx` : *File of final presentation*
+      - `Jagdeo_Jessica_Lab2.pdf` : *Lab deliverable*
+      - `Jagdeo_Jessica_Lab3.pdf` : *Lab deliverable*
+      - `Jagdeo_Jessica_Lab5.pdf` : *Lab deliverable*
+      - `Jagdeo_Jessica_Lab6.pdf` : *Lab deliverable*
+    - `ESM 244 Advanced Data Analysis` : *Advanced data course folders and files*
+      - `Assignments\` : *Folder with assignment instructions*
+      - `Course Materials\` : *Folder with lecture slides*
+      - `Labs\` : *Folder with lab projects*
+      - `Session 3 Spatial Data\`: *Online lab folder*
+      - `Session 4\` : *Online lab folder*
+      - `Shiny App\` : *Folder with files and project associated with Shiny App project*
+      - `ESM 244 W2020 Assignment 1.pdf` : *Assignment 1 deliverable*
+      - `ESM 244 W2020 Assignment 2.pdf` : *Assignment 2 deliverable*
+      - `ESM 244 W2020 Assignment 3.pdf` : *Assignment 3 deliverable*
+    - `ESM 248 Environmental Institutions` : *Environmental institutions folders and files*
+      - `Lectures & Readings\` : *Folder with lecture slides and reading pdfs*
+      - `6 - Participation simulation 2020.docx` : *Participation instructions for class game*
+      - `ESM 248 - Mini-project #4.docx` : *Project deliverable*
+      - `ESM 248 - Mini-project #4.pdf` : *Project deliverable*
+      - `ESM 248 Mini-Project 3.docx` : *Project deliverable*
+      - `ESM 248_ Mini-project 2.docx` : *Project deliverable*
+      - `Jagdeo_Johnson_ESM 248 Institutional Profile.docx` : *Institutional profile deliverable*
+      - `Jagdeo_Johnson_ESM 248 Institutional Profile.pdf` : *Institutional profile deliverable*
+      - `Jagdeo_Johnson_ESM 248 Institutional Profile_mb.docx` : *Professor edits to institutional profile*
+      - `Mini-Project 3 Poster Mining in Congo.docx` : *Project deliverable*
+    - `ESM 262 Computing` : *Computing course folders and files*
+      - `Climate Impacts Package\` : *R package with climate impact function*
+      - `datafiles\` : *Datafiles provided by professor*
+      - `Github\` : *Github folder containing R projects*
+      - `Packages\` : *Folder containing other class packages*
+      - `Projects\` : *Folder containing R project with class working directory*
+      - `Rmds\` : *Markdowns provided by professor*
+  + `Spring 2020\` : *Spring quarter 2020 folders*
+    - `ESM 261 Management of Scientific Data` : *Management of scientific data files*
+    - `ESM 438 Presentation Skills for Environmental Professionals` : *Presentation skills files*
+  + `Water Wranglers GP\` : *Contains files associated with group project*
+
+
+
