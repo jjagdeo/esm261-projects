@@ -1,0 +1,65 @@
+---
+title: 'Assignment 2: Mystery File'
+author: "Jessica Jagdeo"
+date: "4/13/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Poke and prod this sucker until you figure out what’s in it. Then:
+
+1. Document its contents like you did for your own files, according to Assignment 1.
+If you can’t figure out what something is, just describe it with a ?
+
+2. Suggest any changes to the naming and/or organization of the file and/or its contents, that would make it more self-documenting. Document these changes like you did for step 1
+
+### 1. Document the contents of `WTF`:
+
+* `WTF\`: *Contains spatial data associated with counties, parks, and grids; a user guide for the Daymet software climatological variables, and satellite imagery of Daggett, CA*
+  + `CONUS_States\`: *Contains spatial data for the contiguous United States*
+    - `CONUS_States.dbf`: *dBASE database file*
+    - `CONUS_States.prj`: *Coordinate system information?*
+    - `CONUS_States.sbn`: *Spatial index file optimizing spatial inquiries*
+    - `CONUS_States.sbx`: *Spatial index file for optimizing spatial inquiries*
+    - `CONUS_States.shp`: *Vector data storage of location, shape, and attributes of geographic features*
+    - `CONUS_States.shp.xml`: *Metadata for shapefile CONUS_States.shp*
+    - `CONUS_States.shx`: *Shape index position file*
+  + `counties\`: *Contains spatial data for counties from all US states*
+    - `counties.dbf`: *dBASE database file*
+    - `counties.prj`: *Coordinate system information?*
+    - `counties.sbn`: *Spatial index file optimizing spatial inquiries*
+    - `counties.sbx`: *Spatial index file for optimizing spatial inquiries*
+    - `counties.shp`: *Vector data storage of location, shape, and attributes of geographic features*
+    - `counties.shp.xml`: *Metadata for shapefile counties.shp*
+    - `counties.shx`: *Shape index position file*
+  + `grids\`
+    - `conusgrid\`: *Contains raster grid data and metadata for something (?)*
+    - `info\`: *Contains feature class data (?)*
+    - `solar\`: *Contains raster grid data and metadata for something (?)*
+    - `.DS_Store`: *Used by Macs to store folder specific metadata information*
+    - `conusgrid.aux`: *Data file format used by LaTeX to generate documentation*
+    - `conusgrid.rrd`: *?*
+    - `solar.aux`: *Data file format used by LaTeX to generate documentation*
+    - `solar.rrd`: *?*
+  + `mjrrds\`: *Contains spatial data for something referred to as "mjrrds"*
+    - `mjrrds.dbf`: *dBASE database file*
+    - `mjrrds.prj`: *dBASE database file*
+    - `mjrrds.sbn`: *Spatial index file optimizing spatial inquiries*
+    - `mjrrds.sbx`: *Spatial index file for optimizing spatial inquiries*
+    - `mjrrds.shp`: *Vector data storage of location, shape, and attributes of geographic features*
+    - `mjrrds.shp.xml`: *Metadata for shapefile mjrrds.shp*
+    - `mjrrds.shx`: *Spatial index file for optimizing spatial inquiries*
+  + `parks\`: *Contains spatial data for parks*
+    - `parks.dbf`: *dBASE database file*
+    - `parks.prj`: *dBASE database file*
+    - `parks.shp`: *Vector data storage of location, shape, and attributes of geographic features*
+    - `parks.shp.xml`: *Metadata for shapefile parks.shp*
+    - `parks.shx`: *Spatial index file for optimizing spatial inquiries*
+  + `.DS_Store`: **Used by Macs to store folder specific metadata information**
+  + `daggett.jpg`: *Satellite imagery of Daggett, CA*
+  + `DaymetUsersGuide.pdf`: *A user guide for the Daymet software climatological variables*
+
+
