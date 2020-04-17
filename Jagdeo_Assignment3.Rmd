@@ -12,3 +12,29 @@ knitr::opts_chunk$set(echo = TRUE)
 In bash within the Assignment 2 folder, run this:
 
 $ ls | cut -d _ -f 1  | cut -d " " -f 2
+
+$ ls | cut -d _ -f 1  | cut -d " " -f 2 > names.txt
+
+This code repeats back the names in the directory:
+$ for file in *; do
+ echo "$file"
+ done
+
+
+
+
+
+This code removes space in file name and replaces it with an underscore:
+
+for file in *\ *; do
+  mv "$file" "${file// /_}"
+done
+
+This code extracts the last names from the directory names:
+
+$ ls | cut -d _ -f 2 > names.txt
+
+This code renames the folders with the last names from the txt file:
+
+ ls  | paste - names.txt   | awk 'NF == 2 { print "mv ", $1, $2 } ' | bash
+
